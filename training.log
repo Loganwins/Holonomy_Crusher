@@ -1,0 +1,206 @@
+=== HOLONOMY CRUSHER OVERNIGHT TRAINING ===
+Started: Wed Jan 14 03:05:30 AM CST 2026
+=== ROUND 1: epochs=100 ===
+============================================================
+HOLONOMY CRUSHER TRAINING v2
+============================================================
+
+Training data:
+  Consistent examples: 28
+  Inconsistent examples: 30
+
+Loading model: /mnt/nvme2/ubermenschetien4/models/current-merged-v4
+Traceback (most recent call last):
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 419, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        local_files_only=local_files_only,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py", line 129, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/mnt/nvme2/ubermenschetien4/models/current-merged-v4'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/programmer/holonomy-crusher/train_crusher_v2.py", line 668, in <module>
+    main()
+    ~~~~^^
+  File "/home/programmer/holonomy-crusher/train_crusher_v2.py", line 569, in main
+    tokenizer = AutoTokenizer.from_pretrained(args.model)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/models/auto/tokenization_auto.py", line 674, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/models/auto/tokenization_auto.py", line 513, in get_tokenizer_config
+    resolved_config_file = cached_file(
+        pretrained_model_name_or_path,
+    ...<11 lines>...
+        _commit_hash=commit_hash,
+    )
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 276, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 468, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/mnt/nvme2/ubermenschetien4/models/current-merged-v4'. Use `repo_type` argument if needed.
+=== ROUND 2: epochs=100 ===
+============================================================
+HOLONOMY CRUSHER TRAINING v2
+============================================================
+
+Training data:
+  Consistent examples: 28
+  Inconsistent examples: 30
+
+Loading model: /mnt/nvme2/ubermenschetien4/models/current-merged-v4
+Traceback (most recent call last):
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 419, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        local_files_only=local_files_only,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py", line 129, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/mnt/nvme2/ubermenschetien4/models/current-merged-v4'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/programmer/holonomy-crusher/train_crusher_v2.py", line 668, in <module>
+    main()
+    ~~~~^^
+  File "/home/programmer/holonomy-crusher/train_crusher_v2.py", line 569, in main
+    tokenizer = AutoTokenizer.from_pretrained(args.model)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/models/auto/tokenization_auto.py", line 674, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/models/auto/tokenization_auto.py", line 513, in get_tokenizer_config
+    resolved_config_file = cached_file(
+        pretrained_model_name_or_path,
+    ...<11 lines>...
+        _commit_hash=commit_hash,
+    )
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 276, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 468, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/mnt/nvme2/ubermenschetien4/models/current-merged-v4'. Use `repo_type` argument if needed.
+=== ROUND 3: epochs=200 ===
+============================================================
+HOLONOMY CRUSHER TRAINING v2
+============================================================
+
+Training data:
+  Consistent examples: 28
+  Inconsistent examples: 30
+
+Loading model: /mnt/nvme2/ubermenschetien4/models/current-merged-v4
+Traceback (most recent call last):
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 419, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        local_files_only=local_files_only,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py", line 129, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/mnt/nvme2/ubermenschetien4/models/current-merged-v4'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/programmer/holonomy-crusher/train_crusher_v2.py", line 668, in <module>
+    main()
+    ~~~~^^
+  File "/home/programmer/holonomy-crusher/train_crusher_v2.py", line 569, in main
+    tokenizer = AutoTokenizer.from_pretrained(args.model)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/models/auto/tokenization_auto.py", line 674, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/models/auto/tokenization_auto.py", line 513, in get_tokenizer_config
+    resolved_config_file = cached_file(
+        pretrained_model_name_or_path,
+    ...<11 lines>...
+        _commit_hash=commit_hash,
+    )
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 276, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 468, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/mnt/nvme2/ubermenschetien4/models/current-merged-v4'. Use `repo_type` argument if needed.
+=== COMPLETE: Wed Jan 14 03:05:38 AM CST 2026 ===
+============================================================
+HOLONOMY CRUSHER TRAINING v2
+============================================================
+
+Training data:
+  Consistent examples: 28
+  Inconsistent examples: 30
+
+Loading model: /mnt/nvme2/ubermenschetien4/models/current-merged-v4
+Traceback (most recent call last):
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 419, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        local_files_only=local_files_only,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py", line 129, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/mnt/nvme2/ubermenschetien4/models/current-merged-v4'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/programmer/holonomy-crusher/train_crusher_v2.py", line 668, in <module>
+    main()
+    ~~~~^^
+  File "/home/programmer/holonomy-crusher/train_crusher_v2.py", line 569, in main
+    tokenizer = AutoTokenizer.from_pretrained(args.model)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/models/auto/tokenization_auto.py", line 674, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/models/auto/tokenization_auto.py", line 513, in get_tokenizer_config
+    resolved_config_file = cached_file(
+        pretrained_model_name_or_path,
+    ...<11 lines>...
+        _commit_hash=commit_hash,
+    )
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 276, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/home/programmer/miniconda3/lib/python3.13/site-packages/transformers/utils/hub.py", line 468, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/mnt/nvme2/ubermenschetien4/models/current-merged-v4'. Use `repo_type` argument if needed.
